@@ -75,9 +75,9 @@ int main(void) {
     BOARD_InitDebugConsole();
 #endif
 
-    PRINTF("Hello World\r\n");
+    /*PRINTF("Hello World\r\n");
     PRINTF("test_global_var:%d\r\n",test_global_var);
-    PRINTF("dato float:%g",dato_float);
+    PRINTF("dato float:%g",dato_float);*/
 
 
     /* Enter an infinite loop, just incrementing a counter. */
