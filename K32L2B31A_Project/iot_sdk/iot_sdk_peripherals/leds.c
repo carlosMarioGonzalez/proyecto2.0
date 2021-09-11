@@ -43,9 +43,21 @@
  void led_on_gree(){
 	 //encender el led
 	 GPIO_PinWrite(GPIOD, 5,0);
- }
- 
+   }
+/*----------------------------------------------------------*/
  void led_off_gree(){
 	 //apagar el led
 	 GPIO_PinWrite(GPIOD, 5,1);
-  }
+   }
+
+/*----------------------------------------------------------*/
+ void led_on_red(){
+ 	 //encender el led
+ 	 GPIO_PinWrite(GPIOE, 31,0);
+   }
+ /*----------------------------------------------------------*/
+ void led_off_red(){
+   	 //apagar el led
+   	 GPIO_PinWrite(GPIOE, 31,1);
+
+   }
