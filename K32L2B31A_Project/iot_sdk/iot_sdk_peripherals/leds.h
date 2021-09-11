@@ -48,6 +48,18 @@ void led_on_gree();
  *
  */
 void led_off_gree();
+
+/*!
+ * @brief enciende el led ROJO de la tarjeta  FRDM-K32L2B3
+ *
+ */
+void led_on_red();
+/*----------------------------------------------------------*/
+/*!
+ * @brief apaga el led ROJO de la tarjeta  FRDM-K32L2B3
+ *
+ */
+void led_off_red();
 /** @} */ // end of LEDS
 /** @} */ // end of PERIPHERALS
 
